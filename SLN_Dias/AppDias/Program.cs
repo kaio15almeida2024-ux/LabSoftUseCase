@@ -7,12 +7,9 @@ class Program
     static void Main(string[] args)
     {
         // Em Program.cs, modifique o bloco do cabeçalho:
-        Console.WriteLine("=================================");
- HEAD
-        Console.WriteLine("=================================");
-Console.WriteLine(" SoftwareHouse - SISTEMA DE GESTÃO DE TAREFAS - Versão 1.0.0");
+Console.WriteLine("=================================");
+Console.WriteLine(" SoftwareHouse - SISTEMA DE GESTÃO DE TAREFAS");
 Console.WriteLine("=================================\n");
-        Console.WriteLine("=================================\n");
 
         Console.Write("Digite o nome da tarefa: ");
         string nome = Console.ReadLine() ?? "Sem nome";
